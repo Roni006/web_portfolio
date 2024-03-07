@@ -1,0 +1,239 @@
+/*
+Author Name: Anik Islam 
+Template Name: Wen_portfolio
+version: 1.0.0
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS VARIABLES */
+:root{
+    --initer_fonts: "Inter", sans-serif;
+    --yellow-color: #FFB400;
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #666666;
+    --light-white: #F0F0F6;
+}
+
+body{
+    font-family: var(--initer_fonts);
+    background-color: var(--light-white);
+}
+
+/* BASICS FONTS SETUP */
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 15px;
+}
+h6{
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* HEADER SECTION START */
+.header-section{
+    background-color: var(--white-color);
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px 8px 30px;
+    background-color: var(--yellow-color);
+}
+.header-row h2{
+    color: var(--black-color);
+    font-weight: 500;
+}
+ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+    padding: 0 25px 0 25px;
+
+}
+ul li a:hover{
+    color: var(--gray-color);
+
+}
+
+/* HEADER SECTION END */
+
+
+/* HERO SECTION START */
+    .hero-section{
+        background-color: var(--white-color);
+        position: relative;
+
+    }
+    .hero-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 150px 0 150px;
+    }
+    .hero-left h1{
+        font-weight: 700;
+    }
+    .hero-left .extra{
+        color: var(--yellow-color);
+    }
+    .hero-left p{
+        font-size: 16px;
+        width: 417px;
+        margin-top: 20px;
+    }
+    .hero-left a{
+        color: var(--black-color);
+        font-weight: 700;
+        font-size: 16px;
+        background-color: var(--yellow-color);
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: -15px;
+        padding: 16px 32px 16px 32px;
+        border-radius: 8px;
+        
+    }
+    .hero-left .icon{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+    .shape1{
+        position: absolute;
+        left: 125px;
+        top: 90px;
+    }
+    .shape2 {
+        position: absolute;
+        left: 615px;
+        top: 125px;
+    }
+    .shape3 {
+        position: absolute;
+        left: 90%;
+        top: 25%;
+    }
+    .shape4 {
+        position: absolute;
+        left: 13%;
+        top: 78%;
+    }
+    .shape5 {
+        position: absolute;
+        left: 32%;
+        top: 63%;
+    }
+    .shape6 {
+        position: absolute;
+        left: 63%;
+        top: 75%;
+    }
+    .shape7 {
+        position: absolute;
+        left: 95%;
+        top: 85%;
+    }
+/* HERO SECTION END */
+
+
+/* SERVICE SECTION START */
+    .service-section{
+        padding: 90px 0 90px 0;
+    }
+    .service-txt h2{
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .service-content{
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .varialbe{
+        width: 445px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto ; 
+    }
+    .service-blocks{
+        background-color: var(--white-color);
+        width: 310px;
+        padding: 35px 30px 30px 30px;
+        text-align: center;
+    }
+    .service-blocks h4{
+        margin:25px 0 15px 0;
+        font-weight: 500;
+    }
+    .service-blocks h5{
+        color: var(--gray-color);
+        margin-bottom: 25px;
+    }
+    .service-blocks .customize{
+        margin-top: 20px;
+    }
+    .service-blocks a{
+        color: var(--yellow-color);
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .service-blocks span {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+/* SERVICE SECTION END */
+
+
+    /* SECTION START */
+    /* SECTION END */
