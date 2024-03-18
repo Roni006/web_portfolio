@@ -19,9 +19,12 @@ version: 1.0.0
     --black-color: #000;
     --gray-color: #666666;
     --light-white: #F0F0F6;
+    --light-gray: #767676;
+    --btn-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
 body{
+    margin-bottom: 500px;
     font-family: var(--initer_fonts);
     background-color: var(--light-white);
 }
@@ -164,7 +167,7 @@ ul li a:hover{
     .shape4 {
         position: absolute;
         left: 13%;
-        top: 78%;
+        top: 88%;
     }
     .shape5 {
         position: absolute;
@@ -235,5 +238,106 @@ ul li a:hover{
 /* SERVICE SECTION END */
 
 
-    /* SECTION START */
+/*PRICING SECTION START */
+    /* .pricing-section{
+
+    }
+    .pricing-content{
+        margin-top: 50px;
+    }
+    .pricing-blocks{
+        background-color: var(--white-color);
+        width: 310px;
+        padding: 55px 30px 45px 30px;
+    }
+    .pricing-blocks h3{
+        color: var(--black-color);
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pricing-blocks h2{
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .pricing-blocks span{
+        font-size: 15px;
+        font-weight: 400; 
+    }
+    .pricing-blocks p{
+        font-size: 16px;
+        text-align: center;
+        color: var(--light-gray);
+    }
+    .pricing-blocks .service-option {
+        display: flex;
+    }
+    .pricing-blocks .service-option .services{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+    .sbtns{
+        margin-top: 35px;
+        text-align: center;
+        
+    }
+    .sbtns a{
+        color: var(--black-color);
+        background-color: var(--white-color);
+        box-shadow: var(--btn-shadow);
+        padding: 10px 40px 10px 40px;
+        border-radius: 30px;;
+    } */
+/*PRICING SECTION START */
+
+
+/*Recomendation SECTION END */
+    .box-1 {
+        background-color: var(--white-color);
+        width: 310px;
+        padding: 25px;
+    }
+    .recomendation-section .star{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+    .box-1 h4{
+        color: var(--black-color);
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    .box-1 p{
+        font-size: 15px;
+        color: var(--light-gray);
+    }
+    .review h4{
+        margin: 0;
+        padding: 0;
+    }
+    .review .margin{
+        margin-bottom: 5px;
+    }
+    .box-1 .review{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 30px;
+    }
+    .box-content{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+/*Recomendation SECTION END */
+
+
+
+
+
+    /* SECTION END */
     /* SECTION END */
