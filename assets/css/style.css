@@ -73,6 +73,14 @@ img{
     max-width: 100%;
 }
 
+.mb30{
+    margin-bottom: 30px;
+}
+
+
+
+
+
 /* HEADER SECTION START */
 .header-section{
     background-color: var(--white-color);
@@ -239,58 +247,70 @@ ul li a:hover{
 
 
 /*PRICING SECTION START */
-    /* .pricing-section{
-
+    .pricing-section .service-area{
+        display: flex;
+        gap: 30PX;
+        justify-content: center;
+        margin: 60px 0 60px 0;
+        position: relative;
     }
-    .pricing-content{
-        margin-top: 50px;
+    .service-blocks{
+        padding: 55px 30px 25px 30px;
     }
-    .pricing-blocks{
-        background-color: var(--white-color);
-        width: 310px;
-        padding: 55px 30px 45px 30px;
-    }
-    .pricing-blocks h3{
-        color: var(--black-color);
+    .service-blocks h3{
         font-weight: 600;
-        text-align: center;
+        color: var(--black-color);
         margin-bottom: 20px;
     }
-    .pricing-blocks h2{
+    .service-blocks h2{
         font-weight: 700;
-        text-align: center;
+        color: var(--black-color);
         margin-bottom: 10px;
     }
-    .pricing-blocks span{
-        font-size: 15px;
-        font-weight: 400; 
+    .service-blocks h2 span{
+        color: var(--light-gray);
+        font-weight: 400;
     }
-    .pricing-blocks p{
+    .service-blocks p{
         font-size: 16px;
         text-align: center;
-        color: var(--light-gray);
-    }
-    .pricing-blocks .service-option {
-        display: flex;
-    }
-    .pricing-blocks .service-option .services{
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        gap: 18px;
-    }
-    .sbtns{
-        margin-top: 35px;
-        text-align: center;
+        margin-bottom: 20px;
         
     }
-    .sbtns a{
+    .service-blocks .sub-block-1{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .service-blocks .sub-sec h6{
+        font-size: 16px;
+    }
+    .service-blocks .sub-sec a{
+        font-size: 16px;
         color: var(--black-color);
         background-color: var(--white-color);
         box-shadow: var(--btn-shadow);
         padding: 10px 40px 10px 40px;
-        border-radius: 30px;;
-    } */
+        border-radius: 30px;
+    }
+    .orderbtn{
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .service-blocks .Popular{
+        background-color: var(--yellow-color);
+        font-weight: 600;
+        font-size:16px;
+        padding: 5px;
+        width: 310px;
+        position: absolute;
+        margin-top: -55px;
+        margin-left: -30px;
+    }
+    .service-blocks #color{
+        background-color: var(--yellow-color);
+    }
 /*PRICING SECTION START */
 
 
