@@ -1,0 +1,10 @@
+/* @media (max-width: px) {} */
+@media (max-width: 775px) {
+    .menus {
+        display: none;
+    }
+
+    .bars {
+        display: block !important;
+    }
+}
