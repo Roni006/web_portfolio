@@ -187,13 +187,14 @@ ul li a:hover {
     background-color: var(--white-color);
     position: relative;
     margin-top: -75px;
+    /* overflow: hidden; */
 }
 
 .hero-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 145px 00 0;
+    padding: 145px 0 0 0;
 }
 
 
@@ -268,7 +269,7 @@ ul li a:hover {
 .shape6 {
     position: absolute;
     left: 63%;
-    top: 75%;
+    top: 75%; 
 }
 
 .shape7 {
@@ -277,6 +278,7 @@ ul li a:hover {
     top: 85%;
 }
 
+ 
 /* HERO SECTION END */
 
 
@@ -348,6 +350,7 @@ ul li a:hover {
     justify-content: center;
     margin: 60px 0 60px 0;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .service-blocks {
@@ -466,6 +469,7 @@ ul li a:hover {
     gap: 30px;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 /*Recomendation SECTION END */
@@ -516,10 +520,7 @@ ul li a:hover {
 }
 
 .edu-right p {
-    font-size: 15px;
-    /* width: 536px; */
-    /* padding-left: 10%; */
-    padding-right: 35%;
+    font-size: 15px; 
 }
 
 /*EDUCATION SECTION END */

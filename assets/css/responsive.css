@@ -1,4 +1,14 @@
 /* @media (max-width: px) {} */
+@media (max-width: 845px) {
+    .hero-left h1 {
+        font-size: 35px;
+    }
+
+    .edu-content .edu-detail span { 
+        width: 115px !important;
+    }
+}
+
 @media (max-width: 775px) {
     .menus {
         display: none;
@@ -6,5 +16,26 @@
 
     .bars {
         display: block !important;
+    }
+}
+
+@media (max-width: 675px) {
+    .hero-right img {
+        display: none;
+    }
+
+    .hero-left {
+
+        padding: 0 0 50px 0;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 475px) {
+    .varialbe {
+        max-width: 100%;
     }
 }
